@@ -247,4 +247,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/g2-common/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin
 
-$(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
+$(call inherit-product, vendor/lge/msm8974/graphics/graphics-vendor.mk)
